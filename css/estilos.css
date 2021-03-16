@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+
+:root{
+    --background: linear-gradient(135deg, #667eea7e 0%, #764ba298 100%);
+    --color-primary:#667eea; 
+    --color-secondary:#764ba2;
+    --botom-padding: 20px 40px;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+
+.container{
+     width: 90%;
+     margin: 0 auto;
+     overflow: hidden;
+     padding: 80px 0;
+     max-width: 1200px;
+}
+
+
+
+.subtitle{
+    color: var(--color-primary);
+    font-size: 2.5rem;
+    margin-bottom: 35px;
+
+}
+
+
+
+
+
+
+.hero{
+    height: 100vh;
+    background-image: var(--background), url(/imagen/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+
+.hero .container {
+ 
+    padding: 2%;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+    align-items: center;
+    font-weight: 700;
+
+}
+
+
+.nav--footer{ 
+   font-weight: 300;
+   justify-content: flex-start;
+
+}
+
+
+.nav__items {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 10px 15px;
+    font-weight:  inherit;
+}
+
+.nav__items--cta {
+    border: 1px solid white;
+}
+
+.nav__items--footer{
+    padding: 10px;
+}
+
+
+.hero__container{
+    display: flex;
+    align-items: center;
+    color: white;
+    
+}
+
+.panda {
+    
+    width: 130px;
+    
+    margin-left: 85%;
+    margin-top: -3%;
+    margin-bottom: 20%;
+    
+    
+}
+
+.hero__wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+}
+
+.hero__texts{
+    width: 800%;
+    margin-bottom: 50px;
+
+}
+
+
+
+.hero__title{
+    color: white;
+    font-size: 3.5rem;
+
+}
+
+.hero__subtitle{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 15px 0;
+    
+    
+
+}
+
+.hero__cta {
+    
+    display: inline-block;
+    background: #fff;
+    padding: var(--botom-padding);
+    color: var(--color-primary);
+    text-decoration: none;
+    border-radius: 40px;
+    
+}
+
+
+/* about */
+
+.presentation { 
+    text-align: center;
+    padding-top: 0%;
+    
+}
+.presentation__pic{
+    width: 150px;
+    height: 200px;
+    border-radius: 17%;
+    margin-bottom: 0px;
+    object-fit: cover;
+    
+}
+.presentation__copy{
+    width: 80%;
+    margin: 0 auto;
+}
+.presentation__cta {
+    display: inline-block;
+    margin-top: 30px;
+    background: var(--color-primary);
+    color: #fff;
+    text-decoration: none;
+    padding: var(--botom-padding);
+    border-radius: 40px;
+}
+
+.about{
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 80px;
+    justify-items: center;
+    align-items: center;
+}
+
+.about__img{
+    text-align: center;
+}
+
+.about__img--left {
+    text-align: left;
+}
+.about__picture{
+    max-width: 80%;
+}
+.about__paragraph{
+    margin-bottom: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.projects {
+    background: #f2f2f2;
+}
+.projects__grid {
+  display: grid;
+  height: 550px;
+  grid-template-areas: 
+  "img1 img1 img2 img3"
+  "img1 img1 img4 img5";
+  gap: 10px;
+}
+.projects__item {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.projects__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+
+
+
+.footer{
+    background: var(--color-primary);
+}
+.footer__gird{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 20px;
+    align-items: center;
+}
+.footer__title{
+    font-weight: 400;
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.footer__icons{
+    
+    justify-content:space-evenly;
+    display: flex
+}
+
+.footer__container-icons { 
+    
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    
+    text-align: center;
+    border: 2px solid white;
+    border-radius:  40%;
+    
+
+}
+
+
+.fab.footer__icons {
+    line-height: 60px;
+    color: white;
+    text-decoration: none;
+}
+
+.h4 {
+    color: white;
+    text-align: center;
+}
+h5 {
+    
+    margin-left: 28%;
+    font-size: 100%;
+    
+}
